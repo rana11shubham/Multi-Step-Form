@@ -1,91 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>multistep form</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/multiform.css">
-	<link href="https://fonts.googleapis.com/css?family=Montaga|Montserrat" rel="stylesheet">
-</head>
-<body>
-
-	    <div class="row">
-	 	<div class="col-md-6 col-md-offset-3">
-         <div id="main_form">
-         	<ul id="p_bar">
-         	  <li class="active">Personal Details</li>
-         	  <li >Social Profiles</li>
-         	  <li >Account Setup</li>
-         	</ul>
-        
-		<fieldset class="f1">
-	      <h2 class="m_head">Personal Details</h2> 
-	      <h4 class="s_head">Tell us something more about you</h4>	
-	      <div class="form-group">
-    	     <input type="text" class="form-control fname" name="f_name" placeholder="First Name">
-    	  </div>	
-    	  <div class="form-group">
-    	     <input type="text" class="form-control lname" name="l_name" placeholder="Last Name">
-    	  </div>	
-    	  <div class="form-group">
-    	   	 <input type="text" class="form-control contact" name="contact" placeholder="Contact">
-    	  </div>
-          <div class="form-group">
-             <p id="notify1" style="color:blue;"></p>
-          </div>
-    	  <div class="form-group" >
-    	   	 <button class="btn btn-primary btn-lg next1">Next</button>
-    	  </div>	
-		</fieldset>
-	    
-        <fieldset class="f2">
-		
-	        <h2 class="m_head">Social Profiles</h2>
-	        <h4 class="s_head" >Your presence on social network</h4>	
-	      <div class="form-group">
-    	    <input type="Email" class="form-control" id="twitter" name="twitter" placeholder="Twitter">
-    	  </div>	
-    	  <div class="form-group">
-    	    <input type="Email" class="form-control" id="fb" name="fb" placeholder="Facebook">
-    	  </div>	
-    	  <div class="form-group">
-    	   	<input type="Email"class="form-control" id="insta" name="instagram" placeholder="Instagram">
-    	  </div>
-          <div class="form-group">
-            <p id="notify2" style="color:blue;"></p>
-          </div>
-            
-    	  <div class="form-group" >
-    	   	<button class="btn btn-primary btn-lg previous1">Previous</button>
-    	   	<button class="btn btn-primary btn-lg next2 ">Next</button>
-          </div>	
-    	</fieldset>
-    	
-        <fieldset class="f3">
-           
-    	    <h2 class="m_head">Create your account</h2>
-	        <h4 class="s_head" >Fill in your credentials</h4>
-    	  <div class="form-group">
-    	    <input type="Email" class="form-control email" name="email" placeholder="Email" required autofocus>
-    	  </div>	
-    	  <div class="form-group">
-    	    <input type="password" class="form-control pswd" name="pswd" placeholder="Password">
-    	  </div>	
-    	  <div class="form-group">
-    	   	<input type="password"class="form-control cpswd" name=cpswd  placeholder="Confirm Password" required>
-    	  </div>
-          <div class="form-group">
-             <p id="notify3" style="color:blue;"></p>
-          </div>
-    	  <div class="form-group">
-    	   	  <button class="btn btn-primary btn-lg previous2">Previous</button>
-    	   	  <button class="btn btn-primary btn-lg submit">Submit</button>
-    	  </div>	
-    	</fieldset>
-    	  
-    	</div>
-        </div> 
-        </div>
-    <script src="assets/js/lib/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="assets/js/multiform.js"></script>
-</body>
+   <head>
+      <title>multistep form</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/multiform.css">
+      <link href="https://fonts.googleapis.com/css?family=Montaga|Montserrat" rel="stylesheet">
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-md-6 col-md-offset-3">
+            <div id="main_form">
+               <ul id="p_bar">
+                  <li class="active">Personal Details</li>
+                  <li >Social Profiles</li>
+                  <li >Account Setup</li>
+               </ul>
+               <fieldset class="f1">
+                  <h2 class="m_head">Personal Details</h2>
+                  <h4 class="s_head">Tell us something more about you</h4>
+                  <div class="form-group">
+                     <input type="text" class="form-control fname" name="f_name" placeholder="First Name">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="form-control lname" name="l_name" placeholder="Last Name">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="form-control contact" name="contact" placeholder="Contact">
+                  </div>
+                  <div class="form-group">
+                     <p id="notify1" style="color:blue;"></p>
+                  </div>
+                  <div class="form-group" >
+                     <button class="btn btn-primary btn-lg next1">Next</button>
+                  </div>
+               </fieldset>
+               <fieldset class="f2">
+                  <h2 class="m_head">Social Profiles</h2>
+                  <h4 class="s_head" >Your presence on social network</h4>
+                  <div class="form-group">
+                     <input type="Email" class="form-control" id="twitter" name="twitter" placeholder="Twitter">
+                  </div>
+                  <div class="form-group">
+                     <input type="Email" class="form-control" id="fb" name="fb" placeholder="Facebook">
+                  </div>
+                  <div class="form-group">
+                     <input type="Email"class="form-control" id="insta" name="instagram" placeholder="Instagram">
+                  </div>
+                  <div class="form-group">
+                     <p id="notify2" style="color:blue;"></p>
+                  </div>
+                  <div class="form-group" >
+                     <button class="btn btn-primary btn-lg previous1">Previous</button>
+                     <button class="btn btn-primary btn-lg next2 ">Next</button>
+                  </div>
+               </fieldset>
+               <fieldset class="f3">
+                  <h2 class="m_head">Create your account</h2>
+                  <h4 class="s_head" >Fill in your credentials</h4>
+                  <div class="form-group">
+                     <input type="Email" class="form-control email" name="email" placeholder="Email" required autofocus>
+                  </div>
+                  <div class="form-group">
+                     <input type="password" class="form-control pswd" name="pswd" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                     <input type="password"class="form-control cpswd" name=cpswd  placeholder="Confirm Password" required>
+                  </div>
+                  <div class="form-group">
+                     <p id="notify3" style="color:blue;"></p>
+                  </div>
+                  <div class="form-group">
+                     <button class="btn btn-primary btn-lg previous2">Previous</button>
+                     <button class="btn btn-primary btn-lg submit">Submit</button>
+                  </div>
+               </fieldset>
+            </div>
+         </div>
+      </div>
+      <script src="assets/js/lib/jquery-2.2.4.min.js"></script>
+      <script type="text/javascript" src="assets/js/multiform.js"></script>
+   </body>
 </html>
